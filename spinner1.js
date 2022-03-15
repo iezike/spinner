@@ -12,25 +12,28 @@ setTimeout(() => {
 }, 500);
 
 setTimeout(() => {
-  process.stdout.write('\r| '); 
+  process.stdout.write('\r\\   '); 
 }, 700);
 
+setTimeout(() => {
+  process.stdout.write('\r|   '); 
+}, 900);
+
+setTimeout(() => {
+  process.stdout.write('\r/   '); 
+}, 1100);
 
 setTimeout(() => {
   process.stdout.write('\r\-   '); 
-}, 1000);
+}, 1300);
 
 setTimeout(() => {
-  process.stdout.write('\r| '); 
-}, 1400);
+  process.stdout.write('\r\\   '); 
+}, 1500);
+setTimeout(() => {
+  process.stdout.write('\r|   '); 
+}, 1800);
 
 setTimeout(() => {
   process.stdout.write('\n'); 
-}, 1500)
-
-
-
-
-
-
-process.stdout.write('hello from spinner1.js... \rheyyy come\n');
+}, 2000);
